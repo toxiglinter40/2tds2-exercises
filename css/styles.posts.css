@@ -8,8 +8,8 @@ body{
 }
 
 h1{
-    color: #d30000
-    text-center: center;
+    color: #d30000;
+    text-align: center  
 }
 main{
     display: flex;
@@ -24,4 +24,28 @@ main{
     border: 1px solid #ccc;
     border-radius: 8px;
     background-color: #fff;
+}
+label,
+input,
+textarea{
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    max-width: 500px;
+}
+textarea{
+    resize: none;
+}
+button{
+    background-color: #d30000;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+    padding: 0.25rem;
+    border-radius: 8px;
+}
+button:hover{
+    background-color: #a00000;
+    transition: 0.3s;
 }
